@@ -4,6 +4,6 @@
 
     <endpoint
             name='HelloWorld'
-            implementation='example.HelloWorld'
-            url-pattern='/services/HelloWorld'/>
+            implementation='com.ws.examples.HelloWorld'
+            url-pattern='/ws/Hello'/>
 </endpoints>
