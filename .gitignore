@@ -28,3 +28,7 @@ hs_err_pid*
 out/
 lib/
 target/
+.classpath
+.project
+.settings/
+bin/
