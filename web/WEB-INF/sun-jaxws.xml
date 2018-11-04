@@ -6,4 +6,8 @@
             name='HelloWorld'
             implementation='com.ws.examples.HelloWorld'
             url-pattern='/ws/Hello'/>
+    <endpoint
+            name='SoapServiceRPC'
+            implementation='com.ws.rpc.SoapServiceRPC'
+            url-pattern='/ws/rpc'/>
 </endpoints>
