@@ -10,4 +10,10 @@
             name='SoapServiceRPC'
             implementation='com.ws.rpc.SoapServiceRPC'
             url-pattern='/ws/rpc'/>
+    <endpoint name="SoapServiceDocumentBare"
+              implementation="com.ws.document.SoapDocumentBare"
+              url-pattern="/ws/bare" />
+    <endpoint name="SoapServiceDocumentWrap"
+              implementation="com.ws.document.SoapDocumentWrapped"
+              url-pattern="/ws/wrap" />
 </endpoints>
