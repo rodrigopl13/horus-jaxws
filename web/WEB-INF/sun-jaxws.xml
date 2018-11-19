@@ -16,4 +16,7 @@
     <endpoint name="SoapServiceDocumentWrap"
               implementation="com.ws.document.SoapDocumentWrapped"
               url-pattern="/ws/wrap" />
+    <endpoint name="SoapBasicAuth"
+              implementation="com.ws.security.SOAPBasicAuth"
+              url-pattern="/ws/auth" />
 </endpoints>

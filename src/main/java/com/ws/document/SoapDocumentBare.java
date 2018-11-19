@@ -2,13 +2,10 @@ package com.ws.document;
 
 
 import com.domain.models.Movie;
-import com.domain.models.MovieCategories;
-
 import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,7 +22,6 @@ public class SoapDocumentBare {
         movieRequest.setId(movieId);
         map.put(movieId, movieRequest);
         return movieRequest;
-        //return "Added";
     }
 
 }
