@@ -19,4 +19,10 @@
     <endpoint name="SoapBasicAuth"
               implementation="com.ws.security.SOAPBasicAuth"
               url-pattern="/ws/auth" />
+    <endpoint name="SoapStatelessEJB"
+              implementation="com.ws.ejb.SoapStatelesEJB"
+              url-pattern="/ws/stateless" />
+    <endpoint name="SoapSingletonEJB"
+              implementation="com.ws.ejb.SoapSingletonEJB"
+              url-pattern="/ws/singleton" />
 </endpoints>
