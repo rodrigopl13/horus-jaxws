@@ -25,4 +25,13 @@
     <endpoint name="SoapSingletonEJB"
               implementation="com.ws.ejb.SoapSingletonEJB"
               url-pattern="/ws/singleton" />
+    <endpoint name="SimpleExceptionWS"
+              implementation="com.ws.faults.SimpleExceptionWS"
+              url-pattern="/ws/exception" />
+    <endpoint name="SimpleFaultWS"
+              implementation="com.ws.faults.SimpleFaultWS"
+              url-pattern="/ws/fault" />
+    <endpoint name="CustomFaultWS"
+              implementation="com.ws.faults.CustomFaultWS"
+              url-pattern="/ws/customfault" />
 </endpoints>
