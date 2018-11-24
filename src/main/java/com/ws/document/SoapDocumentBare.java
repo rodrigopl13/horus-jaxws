@@ -24,4 +24,11 @@ public class SoapDocumentBare {
         return movieRequest;
     }
 
+    public Movie getMovie(int id){
+        if (map.containsKey(id)){
+            return map.get(id);
+        }else
+            return null;
+    }
+
 }
