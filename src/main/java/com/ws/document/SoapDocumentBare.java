@@ -18,7 +18,7 @@ public class SoapDocumentBare {
 
     @WebResult(name = "movieResponse")
     public Movie addMovie(@WebParam(name="movie") Movie movieRequest){
-        int movieId = map.size()*1;
+        int movieId = map.size()+1;
         movieRequest.setId(movieId);
         map.put(movieId, movieRequest);
         return movieRequest;
