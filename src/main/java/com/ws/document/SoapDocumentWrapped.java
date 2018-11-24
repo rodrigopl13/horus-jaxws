@@ -25,6 +25,7 @@ public class SoapDocumentWrapped {
         for (int i = 0; i<a.length; i++) {
             if (a[i] == seek){
                 a[i] = replace;
+                isChanged = true;
             }
         }
         if(isChanged)
